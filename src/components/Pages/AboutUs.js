@@ -4,7 +4,7 @@ import './AboutUs.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'; // Import the Font Awesome icon
 
-
+// The below are our aboutus component plus map to show location
 const AboutUs = () => {
   return (
     <div className="page-container">
@@ -92,8 +92,8 @@ const AboutUs = () => {
           {/* Add more achievements as needed */}
         </div>
       </section>
-
       <div className="map-container">
+        <h1>Our Location</h1>
         <iframe
           title="Maps"
           src="https://api.maptiler.com/maps/fe7da9bc-0ca3-4ea0-8090-a93c5d514a09/?key=spPhAOyghywnutBw51qW#12.0/-1.3024715/36.7103707"
