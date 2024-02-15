@@ -1,6 +1,7 @@
 /* AboutUs.css */
 
 .page-container {
+
   /* Add styles for the page container */
   background-color: white;
 }
@@ -23,3 +24,4 @@
   color: red; /* Marker color */
   font-size: 24px; /* Adjust the size of the icon */
 }
+   
