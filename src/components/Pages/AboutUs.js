@@ -3,7 +3,6 @@ import "./AboutUs.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons"; // Import the Font Awesome icon
 
-// The below are our aboutus component plus map to show location
 const AboutUs = () => {
   return (
     <div className="page-container">
