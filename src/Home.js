@@ -1,7 +1,10 @@
+// Home.js
+
 import React, { useState, useEffect } from 'react';
 import NavBar from './components/NavBar';
 import FoodList from './components/FoodList';
 import ViewCart from './components/ViewCart';
+import './Home.css'; // Import the CSS file for Home styles
 
 function Home() {
   const [showCart, setShowCart] = useState(false);
@@ -41,7 +44,13 @@ function Home() {
     <div className="App">
       <NavBar />
       <header className="App-header">
-        <h1>Welcome to Our Food App</h1>
+        <div className="hero-container">
+          <img src="https://cdn.pixabay.com/photo/2017/05/07/08/56/pancakes-2291908_1280.jpg" alt="Hero Image" className="hero-image" />
+          <div className="text-container">
+            <h1 className="hero-caption">Your Appetite, Our Pleasure</h1>
+            <p className="hero-paragraph">Explore a world of delicious cuisines at your fingertips.</p>
+          </div>
+        </div>
       </header>
       <main>
         {!showCart ? (
@@ -56,10 +65,8 @@ function Home() {
           <ViewCart cartItems={cartItems} closeCart={closeCart} removeFromCart={removeFromCart} />
         )}
       </main>
-      
     </div>
   );
 }
 
 export default Home;
-

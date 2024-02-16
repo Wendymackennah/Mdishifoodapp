@@ -1,41 +1,35 @@
 .navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #ffc107;
-  padding: 10px;
+  background-color: #ffd700; /* Variant of yellow */
+  padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 1000; /* Ensure it's above other content */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
 
 .logo {
-  font-family: 'Arial', sans-serif; /* Use your preferred font-family */
-  font-size: 24px;
-  color: #333; /* Choose your preferred text color */
+  font-size: 1.5rem;
   font-weight: bold;
+  color: #333;
 }
 
-.nav-list {
-  list-style: none;
-  padding: 0;
+.Navlinks {
   display: flex;
-}
-
-.nav-item {
-  margin-left: 20px;
+  align-items: center;
 }
 
 .nav-link {
+  margin-left: 15px;
   text-decoration: none;
   color: #333;
-  font-size: 16px;
   font-weight: bold;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease-in-out;
 }
 
 .nav-link:hover {
-  color: #fff; /* Change color on hover, you can choose your preferred color */
+  color: #555; /* Hover color */
 }
