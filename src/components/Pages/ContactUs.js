@@ -1,4 +1,3 @@
-// pages/ContactUs.js
 
 import React from 'react';
 
