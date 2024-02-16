@@ -1,15 +1,14 @@
-Project authors 
-weddy makena
-marvin okongo
-john kiguma
-leon onditi 
-abdifatar fara
+# PROJECT TITLE :MDISHI FOOD APP
+
+# PROJECT AUTHORS
+Weddy makena,
+Marvin okongo,
+John kiguma,
+Leon onditi ,
+Abdifatar fara.
  //
- Project Title :Mdishi food app 
 
- Features
-
-    User Registration and Authentication: Users can create accounts, log in, and authenticate their identity for a personalized experience.
+# FEATURES
 
     Restaurant Listings: The app displays a variety of restaurants with their menus, allowing users to browse and select their desired items.
 
@@ -17,15 +16,13 @@ abdifatar fara
 
     Real-time Order Tracking: Users can track the status of their orders in real-time, from preparation to delivery.
 
-    Secure Payments: The app supports secure and convenient payment options, ensuring a smooth transaction process.
-
     Ratings and Reviews: Users can rate and review restaurants, providing valuable feedback for others.
 
-# Getting Started with Create React App
+# GETTING STARTED
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## AVAILABLE SCRIPTS
 
 In the project directory, you can run:
 
@@ -84,7 +81,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+### DEPLOYMENT
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
