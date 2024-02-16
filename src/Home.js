@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import NavBar from './components/NavBar';
-import Footer from './components/Footer';
 import FoodList from './components/FoodList';
 import ViewCart from './components/ViewCart';
 
@@ -57,7 +56,7 @@ function Home() {
           <ViewCart cartItems={cartItems} closeCart={closeCart} removeFromCart={removeFromCart} />
         )}
       </main>
-      <Footer />
+      
     </div>
   );
 }
